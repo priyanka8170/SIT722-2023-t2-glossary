@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SIT722 Software Deployment and Operation Unit Glossary</title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+</head>
+<body>
+  <h1>SIT722 Glossary</h1>
+  <table>
+    <tr>
+      <th>ID</th>
+      <th>Term</th>
+      <th>Definition</th>
+      <th>References</th>
+    </tr>
+    <% for (const item of glossary) { %>
+      <tr>
+        <td><%= item.id %></td>
+        <td><%= item.term %></td>
+        <td><%= item.definition %></td>
+        <td><%= item.references %></td>
+      </tr>
+    <% } %>
+  </table>
+</body>
+</html>
