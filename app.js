@@ -127,7 +127,67 @@ const glossary = [
     definition: 'In the Continuous Deployment (CD) method of software development, any piece of code that passes an automated test is immediately released to the live system. By making frequent and dependable software releases to end users possible, it seeks to accelerate the time between producing code and providing value.',
     references: 'M. R. Pratama and D. Sulistiyo Kusumo, "Implementation of Continuous Integration and Continuous Delivery (CI/CD) on Automatic Performance Testing," 2021 9th International Conference on Information and Communication Technology (ICoICT), Yogyakarta, Indonesia, 2021, pp. 230-235, doi: 10.1109/ICoICT52021.2021.9527496.'
   },
-  
+  {
+    id: 21,
+    term: 'Infrastructure as Code(IaC)',
+    definition: 'IaC is a software engineering approach that entails managing and delivering computer infrastructure using code and automation tools. It approaches infrastructure as if it were software, allowing for uniform, repeatable, and scalable deployment and administration.',
+    references: 'A. Dalvi, "Cloud Infrastructure Self Service Delivery System using Infrastructure as Code.'
+  },
+  {
+    id: 22,
+    term: 'Container',
+    definition: 'A container is a compact, self-contained, executable software package that wraps a program and all of its dependencies as well as the runtime environment. This enables uniform and efficient deployment across a variety of computer platforms.',
+    references: 'O. Sallou and C. Monjeaud, "GO-Docker: A Batch Scheduling System with Docker Containers,".'
+  },
+  {
+    id: 23,
+    term: 'Virtual Machine(VM)',
+    definition: 'A virtual machine (VM), which is a software-based emulation of a real computer, is used to execute an operating system and applications. The capacity to run several instances of different operating systems on the same physical computer allows for separation, resource management, and flexibility in managing and deploying software environments.',
+    references: 'Virtual Machine Definition," Available: https://www.vmware.com/au/topics/glossary/content/virtual-machine.html.'
+  },
+  {
+    id: 24,
+    term: 'Docker image',
+    definition: 'A "Docker image" is a lightweight, independent, executable software package that comprises a program as well as all of its dependencies, libraries, and configuration files. Docker images enable the construction and operation of containers, which provide an isolated and reliable environment for programs to operate across many computing systems.',
+    references: '0. Sallou and C. Monjeaud, "GO-Docker: A Batch Scheduling System with Docker Containers".'
+  },
+  {
+    id: 25,
+    term: 'Cotainer Repository',
+    definition: 'A container repository is a system for organizing and sharing container images. It serves as a repository for many versions of container images, making it easier to manage, distribute, and deploy these images in various contexts. Container repositories often include features like as versioning, access control, and integration with platforms for container orchestration.',
+    references: '0. Sallou and C. Monjeaud, "GO-Docker: A Batch Scheduling System with Docker Containers".'
+  },
+  {
+    id: 26,
+    term: 'Cloud-native Application',
+    definition: 'A cloud-native application is software that is explicitly developed and constructed to take full use of cloud computing environments and concepts. Microservices, containers, and orchestration technologies such as Kubernetes are often used in the design of cloud-native systems.',
+    references: 'P. P. T and C. Kumar, "Building cloud native application — analysis for multi-component application deployment,".'
+  },
+  {
+    id: 27,
+    term: 'Multi Container Applications',
+    definition: 'A multi-container application is a software application that is made up of numerous distinct containers that work together to deliver the programs full capabilities. Each container inside the application is intended to do a certain activity or function, and these containers communicate and interact with one another to give the overall application capabilities.',
+    references: 'P. P. T and C. Kumar, "Building cloud native application — analysis for multi-component application deployment,".'
+  },
+  {
+    id: 28,
+    term: 'Azure Storage',
+    definition: 'Azure Storage is a service to store files in the cloud. We can manage the assets through the Azure Portal, through the APIs, or from the command line. We’ll upload a video through the Azure Portal and then use the Node.js Azure Storage SDK to read it back',
+    references: 'Bootstrapping Microservices with Docker, Kubernetes, and Terraform by Ashley Davis'
+  },
+  {
+    id: 29,
+    term: 'YAML',
+    definition: 'The YAML (YAML Aint Markup Language) data serialization standard is widely used for configuration files and data transmission between applications. It is widely used in software development, particularly for configuring applications, setting up infrastructure, and creating deployment manifests for container orchestration systems.',
+    references: ' https://yaml.org/spec/1.2/spec.html.'
+  },
+  {
+    id: 30,
+    term: 'Docker Copose',
+    definition: 'Docker Compose is a tool for creating and running multi-container Docker applications. A whole application stack comprised of several linked services, networks, and volumes may be created with only one YAML file. Docker Compose simplifies the work of managing complex applications with several containers and their dependencies.',
+    references: 'https://docs.docker.com/compose/'
+  },
+
 
 
 ];
