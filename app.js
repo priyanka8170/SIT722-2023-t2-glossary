@@ -187,7 +187,66 @@ const glossary = [
     definition: 'Docker Compose is a tool for creating and running multi-container Docker applications. A whole application stack comprised of several linked services, networks, and volumes may be created with only one YAML file. Docker Compose simplifies the work of managing complex applications with several containers and their dependencies.',
     references: 'https://docs.docker.com/compose/'
   },
-
+  {
+    id: 31,
+    term: 'Shell scripts',
+    definition: 'a shell script is a file containing a series of commands. The shell reads this file and carries out the commands as though they have been entered directly on the command line. ',
+    references: 'https://linuxcommand.org/lc3_writing_shell_scripts.php '
+  },
+  {
+    id: 32,
+    term: 'separation of concerns',
+    definition: 'Separation of concerns(SOC) is one of the core software design principle that is widely adhered to. The main idea of this principle is to isolate the software application into separate sections. Each section should address a distinct concern that has little overlap with other sections.',
+    references: 'https://medium.com/@evon.dong3/key-ideas-about-separation-of-concerns-f971bdb8bd6b'
+  },
+  {
+    id: 33,
+    term: 'single responsibility principle',
+    definition: 'The Single Responsibility Principle says there should be just one reason for a class to change at any time. The benefits of this principle are obvious – it reduces complexity and improves flexibility, extensibility, and maintenance. It also makes it easier to change classes without breaking them.',
+    references: 'https://www.developer.com/design/microservices-design-principles/'
+  },
+  {
+    id: 34,
+    term: 'blue-green deployment',
+    definition: 'A blue/green deployment is a deployment strategy in which you create two separate, but identical environments. One environment (blue) is running the current application version and one environment (green) is running the new application version. Using a blue/green deployment strategy increases application availability and reduces deployment risk by simplifying the rollback process if a deployment fails. Once testing has been completed on the green environment, live application traffic is directed to the green environment and the blue environment is deprecated.',
+    references: 'https://docs.aws.amazon.com/whitepapers/latest/overview-deployment-options/bluegreen-deployments.html'
+  },
+  {
+    id: 35,
+    term: 'RabbitMQ',
+    definition: 'RabbitMQ is lightweight and easy to deploy on premises and in the cloud. It supports multiple messaging protocols and streaming. RabbitMQ can be deployed in distributed and federated configurations to meet high-scale, high-availability requirements.',
+    references: 'https://www.rabbitmq.com/'
+  },
+  {
+    id: 36,
+    term: 'amqplib',
+    definition: 'The client APIs are based closely on the protocol model. The general idea is to connect, then create one or more channels on which to issue commands, send messages, and so on. Most errors in AMQP invalidate just the channel which had problems, so this ends up being a fairly natural way to use AMQP.',
+    references: 'https://amqp-node.github.io/amqplib/channel_api.html'
+  },
+  {
+    id: 37,
+    term: 'Kubernetes',
+    definition: 'Kubernetes is the computing platform that we use to host our microservices in production.',
+    references: 'Bootstrapping Microservices with Docker, Kubernetes, and Terraform by Ashley Davis'
+  },
+  {
+    id: 38,
+    term: 'Terraform',
+    definition: 'Terraform allows us to script the creation of cloud resources and application infrastructure.',
+    references: 'Bootstrapping Microservices with Docker, Kubernetes, and Terraform by Ashley Davis'
+  },
+  {
+    id: 39,
+    term: 'Kubectl',
+    definition: 'Kubectl is the command-line tool for interacting with a Kubernetes cluster.',
+    references: 'Bootstrapping Microservices with Docker, Kubernetes, and Terraform by Ashley Davis'
+  },
+  {
+    id: 40,
+    term: 'Azure CLI',
+    definition: 'Used the Azure command-line tool to authenticate with Azure and give Terraform access to our Azure account. This tool is generally useful for managing Azure accounts and cloud resources.',
+    references: 'Bootstrapping Microservices with Docker, Kubernetes, and Terraform by Ashley Davis'
+  },
 
 
 ];
